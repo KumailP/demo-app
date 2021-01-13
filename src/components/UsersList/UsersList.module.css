@@ -1,0 +1,36 @@
+.usersList {
+    width: 700px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px solid black;
+    padding: 20px;
+    margin: auto;
+}
+
+.heading {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #282c34;
+    text-align: center;
+}
+
+.list {
+    color: #fff;
+    border-radius: 4px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.list li {
+    cursor: pointer;
+    padding: 10px;
+}
+
+.list li {
+    background-color: #7d8aa5;
+}
+
+.list li:nth-child(even){
+    background-color: #90a0c2;
+}
